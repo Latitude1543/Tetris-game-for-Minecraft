@@ -1,0 +1,1 @@
+$data modify storage tetris:game_render preview[$(x)][$(y)].extra append value "Bi"

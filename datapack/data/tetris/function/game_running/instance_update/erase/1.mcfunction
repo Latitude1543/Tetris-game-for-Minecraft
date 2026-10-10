@@ -1,0 +1,1 @@
+$data remove storage tetris:game_render dialog.instance[$(x)][$(y)].extra[1]

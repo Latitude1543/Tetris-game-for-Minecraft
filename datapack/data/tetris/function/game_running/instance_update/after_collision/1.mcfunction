@@ -1,0 +1,1 @@
+$data modify storage tetris:game_running instance[$(x)][$(y)] set value 1

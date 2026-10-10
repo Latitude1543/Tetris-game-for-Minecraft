@@ -1,0 +1,2 @@
+execute store result score #delta_y tetris.num run compute default integer tetris:rotate/if_in_the_wall/delta_y/left
+execute as 1-0-1-0-400000005 on passengers run scoreboard players operation @s tetris.pos.y.transformed += #delta_y tetris.num

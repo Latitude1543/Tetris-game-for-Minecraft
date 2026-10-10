@@ -1,0 +1,2 @@
+execute store result score @s tetris.pos.x.transformed run compute default integer tetris:rotate/i-t/x
+execute store result score @s tetris.pos.y.transformed run compute default integer tetris:rotate/i-t/y

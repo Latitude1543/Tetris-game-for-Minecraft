@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:int_value_check",
+    "value": {
+        "type": "minecraft:max",
+        "inputs": [
+            {
+                "type": "minecraft:score",
+                "score": "tetris.pos.x.transformed",
+                "target": {
+                    "type": "fixed",
+                    "name": "00000001-0000-0001-0000-000100000001"
+                }
+            },
+            {
+                "type": "minecraft:score",
+                "score": "tetris.pos.x.transformed",
+                "target": {
+                    "type": "fixed",
+                    "name": "00000001-0000-0001-0000-000100000002"
+                }
+            },
+            {
+                "type": "minecraft:score",
+                "score": "tetris.pos.x.transformed",
+                "target": {
+                    "type": "fixed",
+                    "name": "00000001-0000-0001-0000-000100000003"
+                }
+            },
+            {
+                "type": "minecraft:score",
+                "score": "tetris.pos.x.transformed",
+                "target": {
+                    "type": "fixed",
+                    "name": "00000001-0000-0001-0000-000100000004"
+                }
+            }
+        ]
+    },
+    "test": 20
+}

@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:min",
+    "inputs": [
+        {
+            "type": "minecraft:score",
+            "score": "tetris.pos.x",
+            "target": {
+                "type": "fixed",
+                "name": "00000001-0000-0001-0000-000100000001"
+            }
+        },
+        {
+            "type": "minecraft:score",
+            "score": "tetris.pos.x",
+            "target": {
+                "type": "fixed",
+                "name": "00000001-0000-0001-0000-000100000002"
+            }
+        },
+        {
+            "type": "minecraft:score",
+            "score": "tetris.pos.x",
+            "target": {
+                "type": "fixed",
+                "name": "00000001-0000-0001-0000-000100000003"
+            }
+        },
+        {
+            "type": "minecraft:score",
+            "score": "tetris.pos.x",
+            "target": {
+                "type": "fixed",
+                "name": "00000001-0000-0001-0000-000100000004"
+            }
+        }
+    ]
+}

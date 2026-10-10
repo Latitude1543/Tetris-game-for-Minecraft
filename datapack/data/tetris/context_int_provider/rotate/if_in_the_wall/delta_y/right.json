@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:sub",
+    "left": {
+        "type": "minecraft:score",
+        "score": "tetris.pos.y.transformed",
+        "target": {
+            "type": "minecraft:fixed",
+            "name": "#right_one"
+        }
+    },
+    "right": 9
+}

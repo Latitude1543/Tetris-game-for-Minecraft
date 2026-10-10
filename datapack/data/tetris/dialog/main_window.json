@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "俄罗斯方块小游戏",
+    "columns": 1,
+    "pause": false,
+    "after_action": "none",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": {
+            "font": "tetris:dialog",
+            "shadow_color": 0,
+            "text": "\n\n\nAAAA\u0100"
+        }
+    },
+    "actions": [
+        {
+            "label": "新游戏",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.menu set 1"
+            },
+            "width": 100
+        },
+        {
+            "label": "排行榜",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.menu set 2"
+            },
+            "width": 100
+        },
+        {
+            "label": "设置",
+            "action": {
+                "type": "minecraft:show_dialog",
+                "dialog": "tetris:game_settings/start"
+            },
+            "width": 100
+        }
+    ]
+}

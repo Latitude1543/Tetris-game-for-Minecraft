@@ -1,0 +1,81 @@
+{
+    "providers": [
+        {
+            "type": "space",
+            "advances": {
+                "A": -1,
+                "B": -10
+            }
+        },
+        {
+            "type": "bitmap",
+            "file": "tetris:font/title.png",
+            "chars": ["\u0100"],
+            "ascent": 36,
+            "height": 36
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:block/test_block_fail.png",
+            "chars": ["\u0200"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "tetris:font/sun.png",
+            "chars": ["\u0300"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "tetris:font/moon.png",
+            "chars": ["\u0400"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:block/white_stained_glass.png",
+            "chars": ["x"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:block/blue_ice.png",
+            "chars": ["c"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:block/smooth_stone.png",
+            "chars": ["b"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:block/snow.png",
+            "chars": ["f"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:block/cyan_stained_glass.png",
+            "chars": ["s"],
+            "ascent": 9,
+            "height": 9
+        },
+        {
+            "type": "bitmap",
+            "file": "tetris:font/ice.png",
+            "chars": ["i"],
+            "ascent": 9,
+            "height": 9
+        }
+    ]
+}

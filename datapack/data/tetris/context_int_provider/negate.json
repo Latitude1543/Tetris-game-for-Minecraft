@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:negate",
+    "input": {
+        "type": "minecraft:score",
+        "score": "tetris.game.pause-continue",
+        "target": "this"
+    }
+}

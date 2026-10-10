@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "设置-重置",
+    "columns": 1,
+    "pause": false,
+    "after_action": "none",
+    "actions": [
+        {
+            "label": "重置音乐设置",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.settings set 4"
+            },
+            "width": 100
+        },
+        {
+            "label": "重置难度设置",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.settings set 5"
+            },
+            "width": 100
+        },
+        {
+            "label": "全部重置",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.settings set 7"
+            },
+            "width": 100
+        },
+        {
+            "label": "返回",
+            "action": {
+                "type": "minecraft:show_dialog",
+                "dialog": "tetris:game_settings/start"
+            },
+            "width": 100
+        }
+    ]
+}

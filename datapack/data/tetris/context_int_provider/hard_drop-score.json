@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:add",
+    "inputs": [
+        {
+            "type": "minecraft:score",
+            "score": "tetris.game.score",
+            "target": "this"
+        },
+        {
+            "type": "minecraft:score",
+            "score": "tetris.pos.x.transformed",
+            "target": {
+                "type": "minecraft:fixed",
+                "name": "00000001-0000-0001-0000-000100000001"
+            }
+        },
+        {
+            "type": "minecraft:negate",
+            "input": {
+                "type": "minecraft:score",
+                "score": "tetris.pos.x",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "00000001-0000-0001-0000-000100000001"
+                }
+            }
+        }
+    ]
+}

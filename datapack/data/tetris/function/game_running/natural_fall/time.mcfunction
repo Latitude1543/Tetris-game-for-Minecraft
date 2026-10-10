@@ -1,0 +1,2 @@
+execute if score #remaining_time tetris.num matches 1.. run scoreboard players remove #remaining_time tetris.num 1
+execute if score #remaining_time tetris.num matches 0 run function tetris:game_running/natural_fall/start
