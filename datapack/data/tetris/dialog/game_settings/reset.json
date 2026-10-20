@@ -33,7 +33,7 @@
             "label": "返回",
             "action": {
                 "type": "minecraft:show_dialog",
-                "dialog": "tetris:game_settings/start"
+                "dialog": "tetris:game_settings/menu"
             },
             "width": 100
         }

@@ -1,5 +1,3 @@
-# scoreboard players enable @a[tag=tetris.is_playing] tetris.game
-
 scoreboard players enable @a tetris.menu
 execute as @a[scores={tetris.menu=1}] run function tetris:game_play/new_game/start
 execute as @a[scores={tetris.game.abnormal_exit=1..}] run \

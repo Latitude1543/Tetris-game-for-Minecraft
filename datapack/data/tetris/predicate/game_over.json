@@ -1,6 +1,19 @@
 {
     "type": "minecraft:int_value_check",
-    "value": "tetris:min/x",
+    "value": {
+        "type": "minecraft:add",
+        "inputs": [
+            "tetris:min/x",
+            {
+                "type": "minecraft:score",
+                "score": "tetris.num",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#row_count"
+                }
+            }
+        ]
+    },
     "test": {
         "max": -1
     }
