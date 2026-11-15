@@ -22,6 +22,14 @@
             "width": 100
         },
         {
+            "label": "重置显示设置",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.settings set 6"
+            },
+            "width": 100
+        },
+        {
             "label": "全部重置",
             "action": {
                 "type": "minecraft:run_command",

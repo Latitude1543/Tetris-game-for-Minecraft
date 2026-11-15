@@ -20,8 +20,8 @@ $dialog show @s \
             {\
                 label: "查看排行榜",\
                 action: {\
-                    type: "minecraft:run_command",\
-                    command: "trigger tetris.menu set 2"\
+                    type: "minecraft:show_dialog",\
+                    "dialog": "tetris:game_record"\
                 },\
                 width: 100\
             }\

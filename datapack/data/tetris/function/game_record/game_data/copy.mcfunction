@@ -1,0 +1,1 @@
+$data modify storage tetris:game_record data.this set from storage tetris:game_record data.list[$(Pointer)]

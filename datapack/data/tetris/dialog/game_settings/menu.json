@@ -9,15 +9,23 @@
             "label": "音乐",
             "action": {
                 "type": "minecraft:run_command",
+                "command": "trigger tetris.game.settings set 1"
+            },
+            "width": 100
+        },
+        {
+            "label": "难度",
+            "action": {
+                "type": "minecraft:run_command",
                 "command": "trigger tetris.game.settings set 2"
             },
             "width": 100
         },
         {
-            "label": "游戏难度",
+            "label": "显示",
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger tetris.game.settings set 1"
+                "command": "trigger tetris.game.settings set 3"
             },
             "width": 100
         },
@@ -27,7 +35,8 @@
                 "type": "minecraft:show_dialog",
                 "dialog": "tetris:game_settings/reset"
             },
-            "width": 100
+            "width": 100,
+            "tooltip": "重置后将恢复至默认设置"
         },
         {
             "label": "返回",

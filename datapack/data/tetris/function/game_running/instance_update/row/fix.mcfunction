@@ -1,4 +1,4 @@
-function tetris:game_play/new_game/operation_area_init
+function tetris:game_play/operation_area_init
 
 data modify storage tetris:game_render dialog.instance[-1][-1] set from storage tetris:game_render preview[-1]
 data modify storage tetris:game_render dialog.instance[-2][-1] set from storage tetris:game_render preview[-2]

@@ -1,10 +1,14 @@
 scoreboard players reset @s tetris.game
 scoreboard players enable @s tetris.game
+execute as @s[tag=tetris.paused] run return fail
+
+execute if score #move_music_enable tetris.num matches 1 \
+at @s run playsound minecraft:block.copper_bulb.place player @s
 
 execute store result score #right_one tetris.pos.y run compute default integer tetris:max/y
 execute if score #right_one tetris.pos.y matches 9.. run return fail
 
-function tetris:game_running/collision_check/initialize
+function tetris:game_running/collision_check/init
 
 execute as 1-0-1-0-400000005 on passengers run scoreboard players add @s tetris.pos.y.transformed 1
 

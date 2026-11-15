@@ -1,0 +1,2 @@
+execute store result score #delta_x tetris.num run scoreboard players remove *lowest_one tetris.pos.x.transformed 19
+execute as 1-0-1-0-400000005 on passengers run scoreboard players operation @s tetris.pos.x.transformed -= #delta_x tetris.num

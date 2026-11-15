@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:mul",
+    "inputs": [
+        {
+            "type": "minecraft:from_int",
+            "input": {
+                "type": "minecraft:sub",
+                "left": 24,
+                "right": {
+                    "type": "minecraft:mul",
+                    "inputs": [
+                        {
+                            "type": "minecraft:score",
+                            "score": "tetris.num",
+                            "target": {
+                                "type": "minecraft:fixed",
+                                "name": "#game_opening_difficulty"
+                            }
+                        },
+                        4
+                    ]
+                }
+            }
+        },
+        {
+            "type": "minecraft:pow",
+            "base": 0.8,
+            "exponent": {
+                "type": "minecraft:from_int",
+                "input": {
+                    "type": "minecraft:sub",
+                    "left": {
+                        "type": "minecraft:score",
+                        "score": "tetris.num",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "#difficulty_level"
+                        }
+                    },
+                    "right": 1
+                }
+            }
+        }
+    ]
+}

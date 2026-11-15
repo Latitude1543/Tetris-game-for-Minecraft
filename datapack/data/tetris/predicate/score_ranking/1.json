@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:int_value_check",
+    "value": {
+        "type": "minecraft:storage",
+        "storage": "tetris:game_record",
+        "path": "current_player.score"
+    },
+    "test": {
+        "max": {
+            "type": "minecraft:storage",
+            "storage": "tetris:game_record",
+            "path": "data.this[0].score"
+        }
+    }
+}

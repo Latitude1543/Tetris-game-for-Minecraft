@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:add",
+    "inputs": [
+        {
+            "type": "minecraft:floor_div",
+            "left": {
+                "type": "minecraft:score",
+                "score": "tetris.game.score",
+                "target": "this"
+            },
+            "right": 3000
+        },
+        1
+    ]
+}

@@ -8,10 +8,7 @@ execute if score #run_times tetris.num matches ..3 run return run function tetri
 function tetris:game_running/instance_update/row/fix
 
 #score
-execute if score #row_count tetris.num matches 1 run scoreboard players add @s tetris.game.score 100
-execute if score #row_count tetris.num matches 2 run scoreboard players add @s tetris.game.score 200
-execute if score #row_count tetris.num matches 3 run scoreboard players add @s tetris.game.score 300
-execute if score #row_count tetris.num matches 4 run scoreboard players add @s tetris.game.score 600
+function tetris:game_running/score/start
 
 #判定游戏是否失败
 execute if predicate tetris:game_over run return run function tetris:game_running/end/0

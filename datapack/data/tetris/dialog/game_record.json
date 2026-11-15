@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "开局难度",
+    "pause": false,
+    "after_action": "none",
+    "columns": 1,
+    "actions": [
+        {
+            "label": "1",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.record set 1"
+            },
+            "width": 100
+        },
+        {
+            "label": "2",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.record set 2"
+            },
+            "width": 100
+        },
+        {
+            "label": "3",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.record set 3"
+            },
+            "width": 100
+        },
+        {
+            "label": "4",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger tetris.game.record set 4"
+            },
+            "width": 100
+        },
+        {
+            "label": "返回",
+            "action": {
+                "type": "minecraft:show_dialog",
+                "dialog": "tetris:main_window"
+            },
+            "width": 100
+        }
+    ]
+}

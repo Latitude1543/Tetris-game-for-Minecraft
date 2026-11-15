@@ -1,7 +1,7 @@
 $dialog show @s \
     {\
         type: "minecraft:multi_action",\
-        title: "俄罗斯方块 得分：\u00a7b$(score)  \u00a7f难度等级：$(difficulty_level)",\
+        title: "得分：\u00a7b$(score) \u00a7f开局难度：$(opening_difficulty) \u00a7f难度等级：$(difficulty_level)",\
         after_action: "none",\
         can_close_with_escape: false,\
         columns: 2,\
@@ -25,7 +25,7 @@ $dialog show @s \
                 width: 80\
             },\
             {\
-                label: "hard drop",\
+                label: "硬降落",\
                 action: {\
                     type: "minecraft:run_command",\
                     command: "trigger tetris.game set 7"\

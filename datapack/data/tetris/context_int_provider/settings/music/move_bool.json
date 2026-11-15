@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:mod",
+    "left": {
+        "type": "minecraft:div",
+        "left": {
+            "type": "minecraft:score",
+            "score": "tetris.game_music",
+            "target": "this"
+        },
+        "right": 1000
+    },
+    "right": 10
+}

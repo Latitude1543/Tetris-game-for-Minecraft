@@ -5,4 +5,5 @@ execute store result score @s tetris.game.score run compute default integer tetr
 
 execute as 1-0-1-0-400000005 on passengers run function tetris:game_running/instance_update/natural_fall_and_player_operation
 function tetris:game_render/start
-# function tetris:game_running/natural_fall/end
+
+execute if score #hd_music_enable tetris.num matches 1 at @s run playsound minecraft:block.pointed_dripstone.land player @s
