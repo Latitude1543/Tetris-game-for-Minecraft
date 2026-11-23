@@ -43,4 +43,4 @@ execute unless entity 1-0-1-0-400000005 if loaded 0 0 0 run summon minecraft:tex
         ]\
     }
 
-execute unless score #game_difficulty tetris.num matches -2147483648..2147483647 run function tetris:init
+execute unless score #game_opening_difficulty tetris.num matches -2147483648..2147483647 run function tetris:init

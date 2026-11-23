@@ -4,6 +4,7 @@ $data modify storage tetris:game_record screen_display.contents append value \
         "object": "player",\
         "extra": [\
             "  $(name)",\
-            "  得分：$(score)\n\n"\
+            "  得分：$(score)",\
+            "  难度等级：LV$(lv)\n\n"\
         ]\
     }

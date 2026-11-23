@@ -4,6 +4,9 @@ execute as 1-0-1-0-400000005 run function tetris:game_record/score_ranking/playe
 #得分
 execute store result storage tetris:game_record current_player.score int 1 run \
     scoreboard players get @s tetris.game.score
+#难度等级
+execute store result storage tetris:game_record current_player.lv int 1 run \
+    scoreboard players get #difficulty_level tetris.num
 
 ##将数据存储在游戏纪录列表中
 #根据开局难度分类，再根据得分排名，只取前三，忽略得分小于等于前三者的纪录
